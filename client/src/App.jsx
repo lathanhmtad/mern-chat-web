@@ -33,7 +33,6 @@ const App = () => {
         } else {
           setUserInfo(undefined)
         }
-      // eslint-disable-next-line no-unused-vars
       } catch (error) {
         setUserInfo(undefined)
       } finally {

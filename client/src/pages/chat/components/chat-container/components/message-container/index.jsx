@@ -65,7 +65,6 @@ const MessageContainer = () => {
   const renderMessages = () => {
     let lastDate = null
     return selectedChatMessages.map((message, index) => {
-      { console.log({ selectedChatType, message }) }
       const messageDate = moment(message.timestamp).format('YYYY-MM-DD')
       const showDate = messageDate !== lastDate
       lastDate = messageDate
